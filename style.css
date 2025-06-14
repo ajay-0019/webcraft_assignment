@@ -6,6 +6,36 @@ body {
   background: linear-gradient(to right, #c2e9fb, #a1c4fd);
 }
 
+/* ===== Navbar Styles ===== */
+.navbar {
+  background-color: skyblue ;
+  color: #fff;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px 10px 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  margin: 0;
+}
+
+.nav-links li a {
+  font-style: italic  ;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: purple;
+}
+
+
 /* Heading Style */
 .Heading {
   text-align: center;
