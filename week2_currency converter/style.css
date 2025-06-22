@@ -1,0 +1,61 @@
+body {
+  font-weight: 100;
+  background: linear-gradient(135deg, #9b2c9a, #462a6d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+#conversion-label {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.controls {
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background: #3e3e60;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+button:hover {
+  background: #2c2c4a;
+}
+
+#result {
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+}
