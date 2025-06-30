@@ -1,0 +1,77 @@
+.converter {
+  max-width: 400px;
+  margin: 2rem auto;
+  background: linear-gradient(135deg, #f4f4f4, #fff);
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.converter h2 {
+  color: #3c3c3c;
+  margin-bottom: 1.5rem;
+}
+
+input {
+  width: 80%;
+  padding: 0.7rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+
+.dropdowns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+select {
+  padding: 0.6rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #5c6bc0;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-right: 0.7rem;
+}
+
+button:hover {
+  background-color: #3f51b5;
+}
+
+.result {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Dark Mode */
+.converter.dark {
+  background: #1f1f1f;
+  color: white;
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
+}
+
+.converter.dark input,
+.converter.dark select {
+  background: #333;
+  color: white;
+  border: 1px solid #555;
+}
+
+.converter.dark .result {
+  color: #ddd;
+}
+
